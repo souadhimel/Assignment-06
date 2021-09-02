@@ -34,10 +34,10 @@ function showBooks(data) {
               book.cover_i
             }.jpg" class="card-img-top" alt="book" />
             <div class="card-body">
-                <h3 class="card-title">Title:${book.title}</h3>
-                <p>Author name: ${book.author_name || ""}</p>
-                <p>Publisher: ${book.publisher || ""}</p>
-                <p>Publishing date: ${book.first_publish_year || ""}</p>
+                <h3 class="card-title"><b>Title</b>:${book.title}</h3>
+                <p><b>Author name</b>:${book.author_name || ""}</p>
+                <p><b>Publisher</b>:${book.publisher || ""}</p>
+                <p><b>Publishing date</b>:${book.first_publish_year || ""}</p>
             </div>
         </div>
     </div>
