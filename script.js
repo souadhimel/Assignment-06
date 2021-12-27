@@ -1,9 +1,9 @@
 // Selectors
-const booksContainer = document.getElementById("booksContainer");
-const spinner = document.getElementById("spinner");
 const form = document.getElementById("form");
 const bookInput = document.getElementById("bookInput");
 const booksLength = document.getElementById("booksLength");
+const spinner = document.getElementById("spinner");
+const booksContainer = document.getElementById("booksContainer");
 
 // Fetching books data from API
 function getBooks(term) {
@@ -18,8 +18,6 @@ function getBooks(term) {
       spinner.classList.add("hide");
     });
 }
-
-// getBooks()
 
 // Add books to the DOM
 function showBooks(data) {

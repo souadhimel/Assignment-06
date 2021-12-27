@@ -25,20 +25,22 @@
           id="bookInput"
           class="form-control form-control-sm"
           type="text"
-          placeholder="Search a book"
+          placeholder="Search a book please"
           autocomplete="off"
           aria-label=".form-control-sm example"
         />
         <input class="btn btn-warning ms-2" type="submit" value="Search" />
       </form>
+      <!-- Number show in page -->
+      <h2 id="booksLength" class="text-center text-primary my-2"></h2>
 
-      <h2 class="text-center text-primary my-2" id="booksLength"></h2>
-
+      <!-- Spinner loading indicator-->
       <div id="spinner" class="text-center mt-3 text-primary hide">
         <div class="spinner-border" role="status">
           <span class="visually-hidden">Loading...</span>
         </div>
       </div>
+      <!-- products show in UI -->
       <div id="booksContainer" class="row mt-4"></div>
     </div>
     <!-- JS link -->
